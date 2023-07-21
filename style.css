@@ -74,7 +74,85 @@ body {
   padding: 10px;
 }
 
+/* section */
+
+.sectionWraper {
+  margin: 0 20px 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.library {
+  line-height: 60px;
+  font-size: 55px;
+  font-weight: 500;
+  margin-top: 120px;
+  margin-bottom: 10px;
+}
+
 .blueBox {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 500px;
   background-color: #0080ff;
   color: white;
+  padding: 15px;
+}
+
+.boxLogo {
+  margin: 0;
+  font-weight: 300;
+  font-size: 40px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.corporate {
+  margin: 0;
+  font-size: 60px;
+}
+
+.fact {
+  all: unset;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0080ff;
+  color: white;
+  padding: 10px;
+  width: 98%;
+}
+
+/* black box */
+
+.backBox {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 500px;
+  background-color: #000000;
+  color: white;
+  padding: 15px;
+}
+
+.survey {
+  margin: 0;
+  font-size: 60px;
+}
+
+.factBlack {
+  all: unset;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  width: 98%;
 }
